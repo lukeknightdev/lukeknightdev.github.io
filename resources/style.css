@@ -5,30 +5,19 @@ html {
   html,
   body {
     height: 100%;
-    color: var(--font-color);
-  }
-  
-  :root {
-    --spacing-1: 8px;
-    --spacing-2: 12px;
-    --spacing-3: 16px;
-    --spacing-4: 24px;
-  
-    --border-radius: 12px;
-  
-    --font-color: #323232;
+    color: #323232;
   }
   
   h2 {
     font-family: "Poppins", sans-serif;
     margin: 0;
-    margin-bottom: var(--spacing-2);
+    margin-bottom: 12px;
   }
   
   body {
     font-family: "Poppins", sans-serif;
     margin: 0;
-    padding: 0 var(--spacing-3);
+    padding: 0 16px;
     max-width: 900px;
     margin: 0 auto;
     display: flex;
@@ -38,7 +27,7 @@ html {
   nav {
     display: flex;
     align-items: center;
-    padding: var(--spacing-3) 0;
+    padding: 16px 0;
   }
   
   .navigation-items {
@@ -51,12 +40,12 @@ html {
   }
   
   .navigation-item {
-    margin: var(--spacing-1);
+    margin: 8px;
   }
   
   .portrait {
     width: 300px;
-    border-radius: var(--border-radius);
+    border-radius: 12px;
     flex-shrink: 0;
   }
   
@@ -65,7 +54,7 @@ html {
   }
   
   .about-me-text-container {
-    margin-right: var(--spacing-3);
+    margin-right: 16px;
   }
   
   .project-image {
@@ -86,22 +75,22 @@ html {
   
   footer {
     margin-top: auto;
-    padding: var(--spacing-2) 0;
+    padding: 12px 0;
     text-align: center;
   }
   
   section {
-    padding: var(--spacing-3) 0;
+    padding: 16px 0;
   }
   
   .icon {
     font-size: 2em;
-    color: var(--font-color);
-    margin: 0 var(--spacing-1);
+    color: #323232;
+    margin: 0 8px;
   }
   
   a {
-    color: var(--font-color);
+    color: #323232;
     text-decoration: none;
     font-weight: 600;
   }
@@ -117,11 +106,6 @@ html {
     flex-wrap: wrap;
   }
   
-  #skills-container > * {
-    font-size: 2em;
-    width: 2em;
-    margin-top: var(--spacing-1);
-  }
   
   @media only screen and (max-width: 600px) {
     .about-me-container {
